@@ -8,7 +8,7 @@ const port = process.env.PORT || 4000
 
 const app = express()
 
-const whitelist = ['http://localhost:3000', 'https://tzivi.vercel.com']
+const whitelist = ['http://localhost:3000', 'https://tzivi.vercel.app']
 
 app.use(
   cors({
