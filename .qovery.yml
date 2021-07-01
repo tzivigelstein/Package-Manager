@@ -1,0 +1,11 @@
+---
+application:
+  name: "package-manager"
+  project: "package-manager"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-package-manager"
+  routes:
+  - application_name: "package-manager"
+    paths:
+    - "/*"
